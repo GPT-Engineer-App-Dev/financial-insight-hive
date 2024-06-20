@@ -2,18 +2,18 @@ import { Box, Container, Flex, Heading, Link, Text, VStack } from "@chakra-ui/re
 
 const Index = () => {
   return (
-    <Container maxW="container.xl">
+    <Container maxW="container.xl" bg="#fff1e5">
       {/* Header */}
-      <Box as="header" bg="gray.800" color="white" py={4}>
+      <Box as="header" bg="#fff1e5" color="black" py={4}>
         <Flex justify="space-between" align="center">
           <Heading as="h1" size="lg">Financial Times</Heading>
           <Flex as="nav" gap={4}>
-            <Link href="#" color="white">Home</Link>
-            <Link href="#" color="white">World</Link>
-            <Link href="#" color="white">Business</Link>
-            <Link href="#" color="white">Tech</Link>
-            <Link href="#" color="white">Markets</Link>
-            <Link href="#" color="white">Opinion</Link>
+            <Link href="#" color="black">Home</Link>
+            <Link href="#" color="black">World</Link>
+            <Link href="#" color="black">Business</Link>
+            <Link href="#" color="black">Tech</Link>
+            <Link href="#" color="black">Markets</Link>
+            <Link href="#" color="black">Opinion</Link>
           </Flex>
         </Flex>
       </Box>
@@ -46,13 +46,13 @@ const Index = () => {
       </Box>
 
       {/* Footer */}
-      <Box as="footer" bg="gray.800" color="white" py={4} mt={8}>
+      <Box as="footer" bg="#fff1e5" color="black" py={4} mt={8}>
         <Flex justify="space-between" align="center">
           <Text>&copy; 2023 Financial Times</Text>
           <Flex as="nav" gap={4}>
-            <Link href="#" color="white">Privacy Policy</Link>
-            <Link href="#" color="white">Terms of Service</Link>
-            <Link href="#" color="white">Contact Us</Link>
+            <Link href="#" color="black">Privacy Policy</Link>
+            <Link href="#" color="black">Terms of Service</Link>
+            <Link href="#" color="black">Contact Us</Link>
           </Flex>
         </Flex>
       </Box>
